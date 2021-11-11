@@ -24,13 +24,13 @@ pipeline {
                               }
                     }
 
-           /* stage("Test,Build"){
+           stage("Test,Build"){
                steps{
 
                    bat "mvn clean install"
                     }
 
-                  }*/
+                  }
 
               stage("package"){
                steps{
