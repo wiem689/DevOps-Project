@@ -4,7 +4,7 @@ pipeline {
 
         registry = "wiemchalouati/imagedoc" 
 
-        registryCredential = 'wiem123' 
+        registryCredential = 'wiemid' 
 
         dockerImage = '' 
 
